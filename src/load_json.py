@@ -33,3 +33,4 @@ def date_correction():
 def sorting(date_corr):
     return sorted(date_corr, key=lambda e: '.'.join(reversed(e['date'].split('.'))))
 
+
